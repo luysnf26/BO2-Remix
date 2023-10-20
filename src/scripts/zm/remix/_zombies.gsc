@@ -22,7 +22,7 @@ disable_high_round_walkers()
 
 set_run_speed_override()
 {
-	self.zombie_move_speed = "sprint";
+	self.zombie_move_speed = "normal";
 }
 
 ai_calculate_health_override( round_number ) //checked changed to match cerberus output
